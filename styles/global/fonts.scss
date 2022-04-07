@@ -1,15 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+/*
+    100: Thin
+    200: Extra Light (Ultra Light)
+    300: Light
+    400: Normal (Regular)
+    500: Medium
+    600: Semi Bold (Demi Bold)
+    700: Bold
+    800: Extra Bold (Ultra Bold)
+    900: Black (Heavy)
+*/
+
 @font-face {
-	font-family: "Kumbh Sans";
-	src: url("https://res.cloudinary.com/blueshomepage/raw/upload/v1648604647/personalproject/Fonts/Kumbh_Sans/static/KumbhSans-Regular_vnxwnr.ttf")
-		format("truetype");
+	font-family: "Lato";
+	src: url("https://res.cloudinary.com/blueshomepage/raw/upload/v1649295536/personalproject/Fonts/Lato/woff2/Lato-Light_kswwa0.woff2")
+			format("woff2"),
+		url("https://res.cloudinary.com/blueshomepage/raw/upload/v1649295217/personalproject/Fonts/Lato/woff/Lato-Light_mo4qq7.woff")
+			format("woff"),
+		url("https://res.cloudinary.com/blueshomepage/raw/upload/v1649294236/personalproject/Fonts/Lato/ttf/Lato-Light_ibyhts.ttf")
+			format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("https://res.cloudinary.com/blueshomepage/raw/upload/v1649295536/personalproject/Fonts/Lato/woff2/Lato-Regular_ensile.woff2")
+			format("woff2"),
+		url("https://res.cloudinary.com/blueshomepage/raw/upload/v1649295217/personalproject/Fonts/Lato/woff/Lato-Regular_ikxk02.woff")
+			format("woff"),
+		url("https://res.cloudinary.com/blueshomepage/raw/upload/v1649294237/personalproject/Fonts/Lato/ttf/Lato-Regular_hghiem.ttf")
+			format("truetype");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
-	font-family: "Kumbh Sans";
-	src: url("https://res.cloudinary.com/blueshomepage/raw/upload/v1648604647/personalproject/Fonts/Kumbh_Sans/static/KumbhSans-Bold_gwucym.ttf")
-		format("truetype");
+	font-family: "Lato";
+	src: url("https://res.cloudinary.com/blueshomepage/raw/upload/v1649295535/personalproject/Fonts/Lato/woff2/Lato-Bold_cnmztn.woff2")
+			format("woff2"),
+		url("https://res.cloudinary.com/blueshomepage/raw/upload/v1649295217/personalproject/Fonts/Lato/woff/Lato-Bold_kbickq.woff")
+			format("woff"),
+		url("https://res.cloudinary.com/blueshomepage/raw/upload/v1649294236/personalproject/Fonts/Lato/ttf/Lato-Bold_v1gd9n.ttf")
+			format("truetype");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;

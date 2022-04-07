@@ -1,11 +1,24 @@
 :root {
-	--orange: hsl(26, 100%, 55%);
-	--paleOrange: hsl(25, 100%, 94%);
-	--veryVarkBlue: hsl(220, 13%, 13%);
-	--darkGrayishBlue: hsl(219, 9%, 45%);
-	--grayishBlue: hsl(220, 14%, 75%);
-	--lightGrayishBlue: hsl(223, 64%, 98%);
-	--white: hsl(0, 0%, 100%);
-	--black: hsl(0, 0%, 0%);
-	--blackTranparent: hsl(0, 0%, 0%, 0.75);
+	--goldCrayola: #efbc7c;
+	--cultured: #f8f5f4;
+	--raisinBlack: #291f1f;
+	--darkLiver: #5f5556;
+	--white: #ffffff;
+	--black: #000000;
+
+	--bg: #f8f5f4;
+	--textColor: #291f1f;
+	--panelColor: #ffffff;
+}
+[data-theme="dark"] {
+	--goldCrayola: #efbc7c;
+	--cultured: #f8f5f4;
+	--raisinBlack: #291f1f;
+	--darkLiver: #5f5556;
+	--white: #ffffff;
+	--black: #000000;
+
+	--bg: #291f1f;
+	--textColor: #f8f5f4;
+	--panelColor: #5f5556;
 }
